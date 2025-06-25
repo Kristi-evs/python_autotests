@@ -2,7 +2,7 @@ import requests
 import pytest
 
 URL = 'https://api.pokemonbattle.ru/v2'
-TOKEN = 'dd8b1e5f8e72c939150728089e9115d3'
+TOKEN = 'TOKEN'
 HEADER = {'Content-Type' : 'application/json', 'trainer_token' : TOKEN}
 TRAINER_ID = '36275'
 
