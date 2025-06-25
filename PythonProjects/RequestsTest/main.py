@@ -1,13 +1,13 @@
 import requests
 
 URL = 'https://api.pokemonbattle.ru/v2'
-TOKEN = 'dd8b1e5f8e72c939150728089e9115d3'
+TOKEN = TOKEN'
 HEADER = {'Content-Type' : 'application/json', 'trainer_token' : TOKEN}
 
 body_regisration = {
     "trainer_token": TOKEN,
-    "email": "kristinochka.rudkovskaya@mail.ru",
-    "password": "Kk9887453556"
+    "email": "email",
+    "password": "password"
 }
 body_confirmation = {
     "trainer_token": TOKEN
